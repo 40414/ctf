@@ -1,0 +1,8 @@
+services:
+  sushi2:
+    build:
+      context: ./src
+    environment:
+      - FLAG=asusn{fake_flag}
+    ports:
+      - 1337:1337
